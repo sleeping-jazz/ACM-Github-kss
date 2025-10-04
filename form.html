@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <img src="https://cdn-icons-png.flaticon.com/128/4201/4201973.png" alt="Danger">
+    <h1 style="color: red;">Warning!!! Phishing Website!!!</h1>
+    <hr>
+    <h1 style="color: green;">Congratulations! You won a lottery!</h1>
+    <h2>Type your details below to get your prize to your home!!!</h2>
+    <form action="/scam.php">
+        <label for="First Name">First Name:</label>
+        <input type="text" id="First Name" placeholder="Enter your First Name" required name="First Name">
+        <br>
+        <label for="Last Name">Last Name:</label>
+        <input type="text" name="Last Name" id="Last Name" placeholder="Enter your Last Name" required><br>
+        <label for="Address">Address:</label><br>
+        <textarea name="Address" rows="4" cols="30" placeholder="Type your Address to get your prize"></textarea><br>
+        Choose your gender:
+        <input type="radio" id="male" name="gender" value="Male"></input>
+        <label for="male">Male</label>
+        <input type="radio" id="female" name="gender" value="Female"></input>
+        <label for="female">Female</label><br>
+        Choose your prize:
+        <select name="Prize">
+            <option value="Apple Washing Machine">Apple Washing Machine</option>
+            <option value="Microsoft Oven">Microsoft Oven</option>
+            <option value="GTA6">GTA:VI Special Edition</option>
+        </select><br>
+        Where did you find us?
+        <input type="checkbox" id="Social Media" name="Social Media" value="Instagram">
+        <label for="Social Media">Instagram</label>
+        <input type="checkbox" id="Newspapers" name="Newspapers" value="The Hindu">
+        <label for="Newspapers">The Hindu</label><br>
+        Choose your date for pickup
+        <input type="date" name="Pickup Date"><br>
+        DONE!!! Now Enjoy this Video!<br>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/dQw4w9WgXcQ?si=53BgFW9FB8s-j5Yk"
+            title="YouTube video player" frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+    </form>
+</body>
+
+</html>
